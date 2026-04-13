@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+	<title>Page Title</title>
+	<style>
+	p{
+		font-size:12px;
+		text-align:justify;
+		}
+		.merah{
+			color:red;
+		}
+		.biru{
+			color:blue;
+		}
+		
+	</style>
+<link rel="stylesheet" type="text/css" href=""
+	</head>
+	
+	<body>
+		<h1>Latihan CSS</h1>
+		<h2 style = "color : red;">Tampilan Halaman Web dengan CSS</h2>
+		<p class = "merah" >Konten pada Paragraf 1</p>
+		<p class = "biru">Konten pada Paragraf 2</p>
+	</body>
+</html>

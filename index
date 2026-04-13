@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sistem Informasi Akademik TI</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-color: black;
+        }
+        .wrapper {
+            display: flex;
+            min-height: 100vh;
+        }
+		
+        nav {
+            color: white;
+            background-color: orange; 
+            width: 25%; 
+            padding: 30px;
+            box-sizing: border-box;
+        }
+
+        nav h3 {
+            border-bottom: 2px solid white;
+            padding-bottom: 15px;
+            margin-top: 0;
+            font-size: 18px;
+        }
+
+        nav ul {
+            list-style: none; 
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            margin-bottom: 12px;
+            font-size: 14px;
+            line-height: 1.4;
+        }
+
+        main {
+            width: 75%; 
+            background-color: white;
+            padding: 40px;
+            box-sizing: border-box;
+        }
+
+        main h1 {
+            margin-top: 0;
+            margin-bottom: 25px;
+            font-size: 28px;
+            color: #333;
+        }
+        .dark-banner {
+            background-color:blue; 
+            color: white;
+            padding: 25px;
+            border-radius: 8px;
+            display: flex; 
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .dark-banner img {
+            width: 150px; 
+            height: auto;
+            border: 3px solid white;
+            border-radius: 8px;
+            margin-right: 25px;
+        }
+
+        .banner-text h2 {
+            color: orange; 
+            margin-top: 0;
+            margin-bottom: 15px;
+            font-size: 22px;
+        }
+
+        .banner-text ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            font-size: 13px;
+            line-height: 1.6;
+        }
+        .banner-text ul li::before {
+            content: "• "; 
+            color: black;
+            font-weight: bold;
+        }
+        .description-text p {
+            font-size: 14px;
+            line-height: 1.8;
+            color: black;
+            margin-bottom: 15px;
+        }
+        .accreditation-section h3 {
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+
+        table, th, td {
+            border: 1px solid black; 
+        }
+
+        th {
+            background-color: orange; 
+            color: white;
+            padding: 12px;
+            text-align: left;
+        }
+
+        td {
+            padding: 12px;
+            color: black;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        
+        <nav>
+            <h3>Program Studi</h3>
+            <ul>
+                <li>D3 Teknik Komputer</li>
+                <li>D3 Manajemen Informatika</li>
+                <li>D4 Teknologi Rekayasa Perangkat Lunak</li>
+            </ul>
+        </nav>  
+
+        <main>
+            <h1>Selamat Datang</h1>
+
+            <div class="dark-banner">
+                <img src="tilo.png" alt="Logo Teknologi Informasi">
+                
+                <div class="banner-text">
+                    <h2>Teknologi Informasi</h2>
+                    <ul>
+                        <li>D3 Teknik Komputer</li>
+                        <li>D3 Teknik Komputer (Kampus Solok)</li>
+                        <li>D3 Sistem Informasi (Kampus Tanah Datar)</li>
+                        <li>D3 Manajemen Informatika</li>
+                        <li>D3 Manajemen Informatika (Kampus Pelalawan)</li>
+                        <li>D4 Teknologi Rekayasa Perangkat Lunak</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="description-text">
+                <p>
+                    Jurusan Teknologi Informasi menghasilkan tenaga profesional di bidang teknologi informasi, khususnya dalam pengelolaan sistem berbasis komputer yang mampu beradaptasi di berbagai sektor industri modern.
+                </p>
+                <p>
+                    Fasilitas yang tersedia meliputi ruang kelas ber-AC, laboratorium komputer dengan spesifikasi tinggi, serta lingkungan belajar yang nyaman dan kondusif.
+                </p>
+            </div>
+
+            <div class="accreditation-section">
+                <h3>Akreditasi Program Studi</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Program Studi</th>
+                            <th>Jenjang</th>
+                            <th>Akreditasi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Teknik Komputer</td>
+                            <td>D3</td>
+                            <td>Baik Sekali</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Manajemen Informatika</td>
+                            <td>D3</td>
+                            <td>Unggul</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Teknologi Rekayasa Perangkat Lunak</td>
+                            <td>D4</td>
+                            <td>Baik Sekali</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+        <div class="footer">Copyright © 2026 Teknologi Informasi PNP</div>
+        </main>
+    </div>
+
+</body>
+</html>
